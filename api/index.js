@@ -1,4 +1,4 @@
 
-const server = require('/server/main');
+const server = require('./server/main');
 
 module.exports = server.app();
