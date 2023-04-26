@@ -3,11 +3,11 @@
   "public": true,
   "name": "videos-save",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/(.*)", "destination": "/api" }
   ],
   "functions": {
-    "index.js": {
-      "includeFiles": "/browser/**"
+    "api/index.js": {
+      "includeFiles": "browser/**"
     }
   }
 }
