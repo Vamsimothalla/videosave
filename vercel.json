@@ -1,14 +1,13 @@
 {
-    "builds": [
-        {
-            "src": "./server/main.js",
-            "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "server/main.js"
-        }
-    ]
+  "version": 2,
+  "public": true,
+  "name": "videos-save",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "functions": {
+    "/index.js": {
+      "includeFiles": "/browser/**"
+    }
+  }
 }
