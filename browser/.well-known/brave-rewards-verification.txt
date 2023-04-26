@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: videos-save.com
+Token: 1afed1c19d883f32dc891a851e06a26b5ed79f327a3f9f932bb6f0c30590d4e6
